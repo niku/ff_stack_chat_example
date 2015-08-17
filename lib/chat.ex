@@ -11,7 +11,8 @@ defmodule Chat do
       supervisor(Chat.Endpoint, []),
       # Here you could define other workers and supervisors as children
       # worker(Chat.Worker, [arg1, arg2, arg3]),
-      worker(Chat.LoginUser, [])
+      worker(Chat.LoginUser, []),
+      worker(Chat.Message, [])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
