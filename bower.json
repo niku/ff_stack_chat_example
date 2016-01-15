@@ -1,6 +1,6 @@
 {
   "name": "chat",
   "dependencies": {
-    "mithril": "~0.2.0"
+    "mithril": "0.2.0"
   }
 }
