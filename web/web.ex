@@ -27,6 +27,7 @@ defmodule Chat.Web do
       use Phoenix.Controller
 
       import Chat.Router.Helpers
+      import Chat.Gettext
     end
   end
 
@@ -41,6 +42,7 @@ defmodule Chat.Web do
       use Phoenix.HTML
 
       import Chat.Router.Helpers
+      import Chat.Gettext
     end
   end
 
@@ -54,6 +56,7 @@ defmodule Chat.Web do
     quote do
       use Phoenix.Channel
 
+      import Chat.Gettext
     end
   end
 
